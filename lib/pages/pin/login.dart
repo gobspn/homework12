@@ -23,7 +23,7 @@ class _PinPageState extends State<loginpage> {
         padding: const EdgeInsets.symmetric(vertical: 0.0, horizontal: 0.0),
         child: Container(
           decoration: BoxDecoration(
-            color: Colors.blue,
+            color: Colors.yellow,
 
             boxShadow: [
               BoxShadow(
@@ -165,7 +165,7 @@ class _PinPageState extends State<loginpage> {
         decoration: BoxDecoration(
             color: Colors.white,
             shape: BoxShape.circle,
-            border: Border.all(color: Colors.purple, width: 2.0),
+            border: Border.all(color: Colors.orange, width: 2.0),
 
             boxShadow: [
               BoxShadow(
@@ -214,7 +214,7 @@ class _PinPageState extends State<loginpage> {
 
 
                       return AlertDialog(
-                        title: Text('รหัสผ่านผิดพลาด',style: TextStyle(color: Colors.deepPurpleAccent,fontWeight: FontWeight.bold)),
+                        title: Text('รหัสผ่านผิดพลาด',style: TextStyle(color: Colors.orange,fontWeight: FontWeight.bold)),
                         content: Text(
                             'กรุณาลองใส่รหัสผ่านใหม่'),
                         actions: [
